@@ -22,12 +22,16 @@ split_image(image_path, rows, cols, should_square, should_cleanup, [output_dir])
 
 **Basic examples**
 
-`split_image("/content/cat.png", 15, 8, False, False,"/content/")`
+```
+split_image("/content/cat.png", 15, 8, False, False,"/content/")
+```
 
 This splits the cat.png image in 4 tiles (2 rows and 2 columns).
 ![alt text](https://drive.google.com/uc?id=1l3xu6QyrUPF_WpFwR3PYTGkd2p5EFEMa)
 
-`split_image("/content/bridge.png", 3, 4, True, False,"/content/")`
+```
+split_image("/content/bridge.png", 3, 4, True, False,"/content/")
+```
 
 This splits the `bridge.png` image in 12 tiles (3 rows and 4 columns). The square arguments `True` resizes the image into a square before splitting it. The background color used to fill the square is determined from the image automatically.
 
