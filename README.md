@@ -8,7 +8,9 @@
 
 **Installation**
 
-`pip install split-image`
+```
+pip install split-image
+```
 
 **Usage**
 ```
