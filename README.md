@@ -28,4 +28,5 @@ This splits the cat.png image in 4 tiles (2 rows and 2 columns).
 `split_image("/content/bridge.png", 3, 4, True, False,"/content/")`
 
 This splits the `bridge.png` image in 12 tiles (3 rows and 4 columns). The square arguments `True` resizes the image into a square before splitting it. The background color used to fill the square is determined from the image automatically.
+
 ![alt text](https://drive.google.com/uc?id=1bCZ0_bK9PixrhVdAAn1h5b-2wQD17hQP)
